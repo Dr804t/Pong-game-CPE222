@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/Pong/Pong.sim/sim_1/synth/timing/Top_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-311] analyzing module glbl

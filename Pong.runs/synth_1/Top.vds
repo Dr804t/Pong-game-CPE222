@@ -1,0 +1,562 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sun Oct 06 10:34:01 2024
+# Process ID: 11824
+# Current directory: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1
+# Command line: vivado.exe -log Top.vds -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+# Log file: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/Top.vds
+# Journal file: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top.tcl -notrace
+Command: synth_design -top Top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+WARNING: [Synth 8-2611] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+WARNING: [Synth 8-2611] redeclaration of ansi port score_up_p2 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 296.840 ; gain = 125.473
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top' [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:23]
+INFO: [Synth 8-638] synthesizing module 'divider' [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:23]
+INFO: [Synth 8-256] done synthesizing module 'divider' (1#1) [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:23]
+INFO: [Synth 8-638] synthesizing module 'displaytest' [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:23]
+	Parameter h_resolution bound to: 640 - type: integer 
+	Parameter h_front bound to: 48 - type: integer 
+	Parameter h_back bound to: 16 - type: integer 
+	Parameter h_retrace bound to: 96 - type: integer 
+	Parameter h_sum bound to: 799 - type: integer 
+	Parameter v_resolution bound to: 480 - type: integer 
+	Parameter v_front bound to: 10 - type: integer 
+	Parameter v_back bound to: 33 - type: integer 
+	Parameter v_retrace bound to: 2 - type: integer 
+	Parameter v_sum bound to: 524 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'displaytest' (2#1) [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:23]
+INFO: [Synth 8-638] synthesizing module 'Move_rac' [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:23]
+	Parameter def_rac1_xpos bound to: 600 - type: integer 
+	Parameter def_rac1_ypos bound to: 240 - type: integer 
+	Parameter def_rac2_xpos bound to: 40 - type: integer 
+	Parameter def_rac2_ypos bound to: 240 - type: integer 
+	Parameter speed bound to: 200 - type: integer 
+	Parameter h_resolution bound to: 640 - type: integer 
+	Parameter v_resolution bound to: 480 - type: integer 
+	Parameter ver_rac_size bound to: 30 - type: integer 
+	Parameter ymax bound to: 449 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Move_rac' (3#1) [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:23]
+INFO: [Synth 8-638] synthesizing module 'Move_ball' [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:3]
+	Parameter def_ball_xpos bound to: 320 - type: integer 
+	Parameter def_ball_ypos bound to: 240 - type: integer 
+	Parameter xvector bound to: 1 - type: integer 
+	Parameter yvector bound to: 1 - type: integer 
+	Parameter sumvector bound to: 2 - type: integer 
+	Parameter faster bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Move_ball' (4#1) [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:3]
+INFO: [Synth 8-638] synthesizing module 'Collision' [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:23]
+	Parameter h_resolution bound to: 639 - type: integer 
+	Parameter v_resolution bound to: 479 - type: integer 
+	Parameter ball_size bound to: 5 - type: integer 
+	Parameter rac_y_size bound to: 30 - type: integer 
+	Parameter rac_x_size bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Collision' (5#1) [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:23]
+INFO: [Synth 8-638] synthesizing module 'draw' [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:23]
+	Parameter hor_rac_size bound to: 2 - type: integer 
+	Parameter ver_rac_size bound to: 30 - type: integer 
+	Parameter ball_size bound to: 5 - type: integer 
+	Parameter ass_size bound to: 63 - type: integer 
+	Parameter off_x bound to: 32 - type: integer 
+	Parameter off_y bound to: 5 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:83]
+INFO: [Synth 8-256] done synthesizing module 'draw' (6#1) [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:23]
+INFO: [Synth 8-638] synthesizing module 'scoreby7seg' [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'scoreby7seg' (7#1) [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Top' (8#1) [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 317.840 ; gain = 146.473
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 317.840 ; gain = 146.473
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/constrs_1/imports/CPE222/Project_1xdc.xdc]
+Finished Parsing XDC File [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/constrs_1/imports/CPE222/Project_1xdc.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/constrs_1/imports/CPE222/Project_1xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 610.043 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 610.043 ; gain = 438.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 610.043 ; gain = 438.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 610.043 ; gain = 438.676
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "out_clk" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "vcount" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:98]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:106]
+INFO: [Synth 8-5544] ROM "rowbit" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'win_reg' [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:64]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 610.043 ; gain = 438.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 10    
+	   3 Input     32 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 9     
+	   2 Input     10 Bit       Adders := 8     
+	   2 Input      9 Bit       Adders := 5     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 8     
+	                9 Bit    Registers := 5     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 7     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 15    
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	  16 Input     64 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 10    
+	   2 Input      9 Bit        Muxes := 11    
+	  22 Input      7 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module displaytest 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module Move_rac 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 4     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 4     
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 8     
+Module Move_ball 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 4     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 11    
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+Module Collision 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 5     
+	   2 Input     11 Bit       Adders := 5     
++---Registers : 
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+Module draw 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 5     
+	   2 Input     11 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	  16 Input     64 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module scoreby7seg 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  22 Input      7 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 610.043 ; gain = 438.676
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "vcount" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP red2, operation Mode is: A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 610.043 ; gain = 438.676
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 610.043 ; gain = 438.676
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP:
++------------+----------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | Neg Edge Clk | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|draw        | A*B            | No           | 18     | 16     | 48     | 25     | 48     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|draw        | (PCIN>>17)+A*B | No           | 16     | 16     | 48     | 25     | 48     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|draw        | A*B            | No           | 18     | 18     | 48     | 25     | 48     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|draw        | (PCIN>>17)+A*B | No           | 18     | 16     | 48     | 25     | 48     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|draw        | A*B            | No           | 18     | 16     | 48     | 25     | 48     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|draw        | (PCIN>>17)+A*B | No           | 16     | 16     | 48     | 25     | 48     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|draw        | A*B            | No           | 18     | 18     | 48     | 25     | 48     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|draw        | (PCIN>>17)+A*B | No           | 18     | 16     | 48     | 25     | 48     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
++------------+----------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac1_xpos_reg[0] ' (FDRE) to '\Move_rac/rac2_xpos_reg[0] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac2_xpos_reg[0] ' (FDRE) to '\Move_rac/rac2_xpos_reg[1] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac1_xpos_reg[1] ' (FDRE) to '\Move_rac/rac2_xpos_reg[1] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac1_xpos_reg[2] ' (FDRE) to '\Move_rac/rac2_xpos_reg[1] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac1_xpos_reg[3] ' (FDSE) to '\Move_rac/rac2_xpos_reg[3] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac1_xpos_reg[4] ' (FDSE) to '\Move_rac/rac2_xpos_reg[3] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac1_xpos_reg[5] ' (FDRE) to '\Move_rac/rac2_xpos_reg[1] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac1_xpos_reg[6] ' (FDSE) to '\Move_rac/rac2_xpos_reg[3] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac1_xpos_reg[7] ' (FDRE) to '\Move_rac/rac2_xpos_reg[1] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac1_xpos_reg[8] ' (FDRE) to '\Move_rac/rac2_xpos_reg[1] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac1_xpos_reg[9] ' (FDSE) to '\Move_rac/rac2_xpos_reg[3] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac2_xpos_reg[1] ' (FDRE) to '\Move_rac/rac2_xpos_reg[2] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac2_xpos_reg[2] ' (FDRE) to '\Move_rac/rac2_xpos_reg[4] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac2_xpos_reg[3] ' (FDSE) to '\Move_rac/rac2_xpos_reg[5] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac2_xpos_reg[4] ' (FDRE) to '\Move_rac/rac2_xpos_reg[6] '
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\Move_rac/rac2_xpos_reg[5] )
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac2_xpos_reg[6] ' (FDRE) to '\Move_rac/rac2_xpos_reg[7] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac2_xpos_reg[7] ' (FDRE) to '\Move_rac/rac2_xpos_reg[8] '
+INFO: [Synth 8-3886] merging instance '\Move_rac/rac2_xpos_reg[8] ' (FDRE) to '\Move_rac/rac2_xpos_reg[9] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Move_rac/rac2_xpos_reg[9] )
+INFO: [Synth 8-3886] merging instance '\scoreby7seg/an_reg[1] ' (FDS) to '\scoreby7seg/an_reg[3] '
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\scoreby7seg/an_reg[3] )
+INFO: [Synth 8-3886] merging instance '\draw/blue_reg[0] ' (FDR) to '\draw/blue_reg[1] '
+INFO: [Synth 8-3886] merging instance '\draw/blue_reg[2] ' (FDR) to '\draw/blue_reg[3] '
+INFO: [Synth 8-3886] merging instance '\draw/green_reg[0] ' (FDR) to '\draw/green_reg[2] '
+INFO: [Synth 8-3886] merging instance '\draw/green_reg[1] ' (FDR) to '\draw/green_reg[2] '
+INFO: [Synth 8-3886] merging instance '\draw/red_reg[0] ' (FDS) to '\draw/red_reg[1] '
+INFO: [Synth 8-3886] merging instance '\draw/red_reg[2] ' (FDS) to '\draw/red_reg[3] '
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac2_xpos_reg[0] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac1_xpos_reg[0] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac2_xpos_reg[1] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac1_xpos_reg[1] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac1_xpos_reg[2] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac2_xpos_reg[3] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac1_xpos_reg[3] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac1_xpos_reg[4] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac1_xpos_reg[5] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac1_xpos_reg[6] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac1_xpos_reg[7] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac1_xpos_reg[8] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac1_xpos_reg[9] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac2_xpos_reg[2] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac2_xpos_reg[4] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac2_xpos_reg[5] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac2_xpos_reg[6] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac2_xpos_reg[7] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac2_xpos_reg[8] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac2_xpos_reg[9] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\draw/red_reg[2] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\draw/red_reg[0] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\draw/green_reg[1] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\draw/green_reg[0] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\draw/blue_reg[2] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\draw/blue_reg[0] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\scoreby7seg/an_reg[3] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\scoreby7seg/an_reg[1] ) is unused and will be removed from module Top.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 610.043 ; gain = 438.676
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 610.043 ; gain = 438.676
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:48 . Memory (MB): peak = 631.594 ; gain = 460.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:48 . Memory (MB): peak = 641.293 ; gain = 469.926
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac1_ypos_reg[9] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_rac/rac2_ypos_reg[9] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_ball/loc_xcount_reg[8] ) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (\Move_ball/loc_ycount_reg[8] ) is unused and will be removed from module Top.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:48 . Memory (MB): peak = 663.887 ; gain = 492.520
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:30 ; elapsed = 00:00:48 . Memory (MB): peak = 663.887 ; gain = 492.520
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:30 ; elapsed = 00:00:48 . Memory (MB): peak = 663.887 ; gain = 492.520
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:49 . Memory (MB): peak = 663.887 ; gain = 492.520
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:49 . Memory (MB): peak = 663.887 ; gain = 492.520
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:49 . Memory (MB): peak = 663.887 ; gain = 492.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:49 . Memory (MB): peak = 663.887 ; gain = 492.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:49 . Memory (MB): peak = 663.887 ; gain = 492.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:49 . Memory (MB): peak = 663.887 ; gain = 492.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     3|
+|2     |CARRY4  |    94|
+|3     |DSP48E1 |     6|
+|4     |LUT1    |    68|
+|5     |LUT2    |   159|
+|6     |LUT3    |    40|
+|7     |LUT4    |   149|
+|8     |LUT5    |   157|
+|9     |LUT6    |   271|
+|10    |MUXF7   |     1|
+|11    |FDCE    |     8|
+|12    |FDRE    |   140|
+|13    |FDSE    |    11|
+|14    |LDC     |     1|
+|15    |IBUF    |     7|
+|16    |OBUF    |    25|
++------+--------+------+
+
+Report Instance Areas: 
++------+--------------+------------+------+
+|      |Instance      |Module      |Cells |
++------+--------------+------------+------+
+|1     |top           |            |  1140|
+|2     |  Collision   |Collision   |    21|
+|3     |  Move_ball   |Move_ball   |   390|
+|4     |  Move_rac    |Move_rac    |   346|
+|5     |  displaytest |displaytest |   130|
+|6     |  divider     |divider     |     6|
+|7     |  draw        |draw        |   167|
+|8     |  scoreby7seg |scoreby7seg |    45|
++------+--------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:49 . Memory (MB): peak = 663.887 ; gain = 492.520
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:39 . Memory (MB): peak = 663.887 ; gain = 158.836
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:50 . Memory (MB): peak = 663.887 ; gain = 492.520
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 108 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 10 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  LDC => LDCE: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+63 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:48 . Memory (MB): peak = 663.887 ; gain = 458.477
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 663.887 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 06 10:34:53 2024...

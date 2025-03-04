@@ -1,0 +1,199 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Dec 06 01:57:52 2023
+# Process ID: 9544
+# Current directory: C:/Users/Dr804t/Documents/CPE222/pong_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1912 C:\Users\Dr804t\Documents\CPE222\pong_4\Pong.xpr
+# Log file: C:/Users/Dr804t/Documents/CPE222/pong_4/vivado.log
+# Journal file: C:/Users/Dr804t/Documents/CPE222/pong_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.displaytest_default
+Compiling module xil_defaultlib.Move_rac_default
+Compiling module xil_defaultlib.Move_ball_default
+Compiling module xil_defaultlib.Collision
+Compiling module xil_defaultlib.draw
+Compiling module xil_defaultlib.scoreby7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.testb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xsim.dir/testb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Dec 06 01:58:18 2023...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testb_behav -key {Behavioral:sim_1:Functional:testb} -tclbatch {testb.tcl} -view {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+WARNING: Simulation object /testb/Top/draw/test was not found in the design.
+source testb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 16s
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 835.715 ; gain = 0.414
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 835.715 ; gain = 0.414
+INFO: [Common 17-344] 'xsim' was cancelled
+1
+    while executing
+"catch {eval "xsim $cmd_args"} err_msg"
+    (procedure "tclapp::xilinx::xsim::simulate" line 58)
+    invoked from within
+"tclapp::xilinx::xsim::simulate { -simset sim_1 -mode behavioral -run_dir C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav -int_os_type 64 ..."
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 835.715 ; gain = 0.414
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.displaytest_default
+Compiling module xil_defaultlib.Move_rac_default
+Compiling module xil_defaultlib.Move_ball_default
+Compiling module xil_defaultlib.Collision
+Compiling module xil_defaultlib.draw
+Compiling module xil_defaultlib.scoreby7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.testb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xsim.dir/testb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Dec 06 01:58:38 2023...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testb_behav -key {Behavioral:sim_1:Functional:testb} -tclbatch {testb.tcl} -view {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+WARNING: Simulation object /testb/Top/draw/test was not found in the design.
+source testb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 16s
+$finish called at time : 500 ns : File "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" Line 69
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 16s
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 06 01:58:45 2023...

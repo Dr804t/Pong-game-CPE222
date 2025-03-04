@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Dec 06 01:57:52 2023
+# Process ID: 9544
+# Current directory: C:/Users/Dr804t/Documents/CPE222/pong_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1912 C:\Users\Dr804t\Documents\CPE222\pong_4\Pong.xpr
+# Log file: C:/Users/Dr804t/Documents/CPE222/pong_4/vivado.log
+# Journal file: C:/Users/Dr804t/Documents/CPE222/pong_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.xpr
+launch_simulation
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+source testb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+source testb.tcl
+close_sim

@@ -1,0 +1,2095 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Dec 05 22:08:24 2023
+# Process ID: 15828
+# Current directory: C:/Users/Dr804t/Documents/CPE222/pong_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18280 C:\Users\Dr804t\Documents\CPE222\pong_4\Pong.xpr
+# Log file: C:/Users/Dr804t/Documents/CPE222/pong_4/vivado.log
+# Journal file: C:/Users/Dr804t/Documents/CPE222/pong_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.displaytest_default
+Compiling module xil_defaultlib.Move_rac_default
+Compiling module xil_defaultlib.Move_ball_default
+Compiling module xil_defaultlib.Collision
+Compiling module xil_defaultlib.draw
+Compiling module xil_defaultlib.scoreby7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.testb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xsim.dir/testb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 05 22:15:08 2023...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testb_behav -key {Behavioral:sim_1:Functional:testb} -tclbatch {testb.tcl} -view {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+source testb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 16s
+$finish called at time : 50 ms : File "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" Line 68
+run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 793.719 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 793.719 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 16s
+launch_simulation: Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 793.719 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+ERROR: [VRFC 10-91] test is not declared [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:55]
+ERROR: [VRFC 10-91] test is not declared [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:96]
+ERROR: [VRFC 10-1040] module draw ignored due to previous errors [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:23]
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xvlog.log' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.displaytest_default
+Compiling module xil_defaultlib.Move_rac_default
+Compiling module xil_defaultlib.Move_ball_default
+Compiling module xil_defaultlib.Collision
+Compiling module xil_defaultlib.draw
+Compiling module xil_defaultlib.scoreby7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.testb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xsim.dir/testb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 05 22:19:20 2023...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testb_behav -key {Behavioral:sim_1:Functional:testb} -tclbatch {testb.tcl} -view {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+source testb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 16s
+$finish called at time : 50 ms : File "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" Line 68
+run: Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 809.898 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 809.898 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 16s
+launch_simulation: Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 809.898 ; gain = 0.000
+save_wave_config {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.displaytest_default
+Compiling module xil_defaultlib.Move_rac_default
+Compiling module xil_defaultlib.Move_ball_default
+Compiling module xil_defaultlib.Collision
+Compiling module xil_defaultlib.draw
+Compiling module xil_defaultlib.scoreby7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.testb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xsim.dir/testb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 05 22:20:11 2023...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testb_behav -key {Behavioral:sim_1:Functional:testb} -tclbatch {testb.tcl} -view {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+source testb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 16s
+$finish called at time : 50 ms : File "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" Line 68
+run: Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 843.094 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 843.094 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 16s
+launch_simulation: Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 843.094 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.displaytest_default
+Compiling module xil_defaultlib.Move_rac_default
+Compiling module xil_defaultlib.Move_ball_default
+Compiling module xil_defaultlib.Collision
+Compiling module xil_defaultlib.draw
+Compiling module xil_defaultlib.scoreby7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.testb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xsim.dir/testb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 05 23:07:47 2023...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testb_behav -key {Behavioral:sim_1:Functional:testb} -tclbatch {testb.tcl} -view {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+source testb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 16s
+$finish called at time : 50 ms : File "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" Line 68
+run: Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 843.094 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 843.094 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 16s
+launch_simulation: Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 843.094 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.displaytest_default
+Compiling module xil_defaultlib.Move_rac_default
+Compiling module xil_defaultlib.Move_ball_default
+Compiling module xil_defaultlib.Collision
+Compiling module xil_defaultlib.draw
+Compiling module xil_defaultlib.scoreby7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.testb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xsim.dir/testb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 05 23:14:40 2023...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testb_behav -key {Behavioral:sim_1:Functional:testb} -tclbatch {testb.tcl} -view {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+source testb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 16s
+$finish called at time : 50 ms : File "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" Line 68
+run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 854.613 ; gain = 11.520
+xsim: Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 854.613 ; gain = 11.520
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 16s
+launch_simulation: Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 854.613 ; gain = 11.520
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+ERROR: [VRFC 10-529] concurrent assignment to a non-net test is not permitted [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:59]
+ERROR: [VRFC 10-1040] module draw ignored due to previous errors [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:23]
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xvlog.log' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.displaytest_default
+Compiling module xil_defaultlib.Move_rac_default
+Compiling module xil_defaultlib.Move_ball_default
+Compiling module xil_defaultlib.Collision
+Compiling module xil_defaultlib.draw
+Compiling module xil_defaultlib.scoreby7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.testb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xsim.dir/testb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 05 23:16:36 2023...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testb_behav -key {Behavioral:sim_1:Functional:testb} -tclbatch {testb.tcl} -view {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+source testb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 16s
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 854.613 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 854.613 ; gain = 0.000
+INFO: [Common 17-344] 'xsim' was cancelled
+1
+    while executing
+"catch {eval "xsim $cmd_args"} err_msg"
+    (procedure "tclapp::xilinx::xsim::simulate" line 58)
+    invoked from within
+"tclapp::xilinx::xsim::simulate { -simset sim_1 -mode behavioral -run_dir C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav -int_os_type 64 ..."
+launch_simulation: Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 854.613 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.displaytest_default
+Compiling module xil_defaultlib.Move_rac_default
+Compiling module xil_defaultlib.Move_ball_default
+Compiling module xil_defaultlib.Collision
+Compiling module xil_defaultlib.draw
+Compiling module xil_defaultlib.scoreby7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.testb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xsim.dir/testb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 05 23:17:14 2023...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testb_behav -key {Behavioral:sim_1:Functional:testb} -tclbatch {testb.tcl} -view {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+source testb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 16s
+$finish called at time : 50 ms : File "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" Line 68
+run: Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 854.613 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 854.613 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 16s
+launch_simulation: Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 854.613 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1233] port reset is already connected [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v:39]
+ERROR: [VRFC 10-1233] port reset is already connected [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v:45]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1233] port reset is already connected [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v:39]
+ERROR: [VRFC 10-1233] port reset is already connected [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v:45]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.displaytest_default
+Compiling module xil_defaultlib.Move_rac_default
+Compiling module xil_defaultlib.Move_ball_default
+Compiling module xil_defaultlib.Collision
+Compiling module xil_defaultlib.draw
+Compiling module xil_defaultlib.scoreby7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.testb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xsim.dir/testb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 05 23:20:55 2023...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testb_behav -key {Behavioral:sim_1:Functional:testb} -tclbatch {testb.tcl} -view {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+source testb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 16s
+$finish called at time : 50 ms : File "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" Line 69
+run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 854.613 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 854.613 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 16s
+launch_simulation: Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 854.613 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Tue Dec 05 23:22:48 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/testb_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.displaytest_default
+Compiling module xil_defaultlib.Move_rac_default
+Compiling module xil_defaultlib.Move_ball_default
+Compiling module xil_defaultlib.Collision
+Compiling module xil_defaultlib.draw
+Compiling module xil_defaultlib.scoreby7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.testb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xsim.dir/testb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 05 23:22:54 2023...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testb_behav -key {Behavioral:sim_1:Functional:testb} -tclbatch {testb.tcl} -view {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+source testb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 16s
+$finish called at time : 50 ms : File "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" Line 69
+run: Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 854.613 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 854.613 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 16s
+launch_simulation: Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 854.613 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.displaytest_default
+Compiling module xil_defaultlib.Move_rac_default
+Compiling module xil_defaultlib.Move_ball_default
+Compiling module xil_defaultlib.Collision
+Compiling module xil_defaultlib.draw
+Compiling module xil_defaultlib.scoreby7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.testb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xsim.dir/testb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 05 23:25:11 2023...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testb_behav -key {Behavioral:sim_1:Functional:testb} -tclbatch {testb.tcl} -view {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+source testb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 16s
+$finish called at time : 50 ms : File "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" Line 69
+run: Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 864.906 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 864.906 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 16s
+launch_simulation: Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 864.906 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Tue Dec 05 23:26:04 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Tue Dec 05 23:26:31 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue Dec 05 23:27:14 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+save_wave_config {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/testb_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scoreby7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision
+WARNING: [VRFC 10-1315] redeclaration of ansi port score_up_p1 is not allowed [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Move_rac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displaytest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto a2892473a4b54e60a2679444667643fb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testb_behav xil_defaultlib.testb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.displaytest_default
+Compiling module xil_defaultlib.Move_rac_default
+Compiling module xil_defaultlib.Move_ball_default
+Compiling module xil_defaultlib.Collision
+Compiling module xil_defaultlib.draw
+Compiling module xil_defaultlib.scoreby7seg
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.testb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav/xsim.dir/testb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 05 23:27:24 2023...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testb_behav -key {Behavioral:sim_1:Functional:testb} -tclbatch {testb.tcl} -view {C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config C:/Users/Dr804t/Documents/CPE222/pong_4/Top_behav.wcfg
+source testb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 16s
+$finish called at time : 50 ms : File "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sim_1/new/testb.v" Line 69
+run: Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 927.070 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 927.070 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 16s
+launch_simulation: Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 927.070 ; gain = 0.000
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.4
+  **** Build date : Nov 17 2015-18:01:07
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACAB43A
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Tue Dec 05 23:30:25 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Tue Dec 05 23:30:51 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue Dec 05 23:31:44 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Tue Dec 05 23:34:57 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Tue Dec 05 23:35:22 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue Dec 05 23:35:58 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Tue Dec 05 23:37:24 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Tue Dec 05 23:37:57 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue Dec 05 23:39:40 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Tue Dec 05 23:57:00 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Tue Dec 05 23:57:17 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Tue Dec 05 23:57:31 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue Dec 05 23:58:15 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:01:44 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:02:09 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:02:45 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:05:13 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:05:41 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:06:08 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:06:51 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:08:24 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:08:51 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:09:30 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "else". [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:123]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:11:54 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:15:09 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:15:34 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:16:11 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:18:05 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:18:33 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:19:11 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:26:09 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:26:35 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:27:14 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:28:30 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:28:53 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:29:29 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:30:09 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:31:24 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:31:51 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:32:33 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:42:27 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:42:59 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:43:36 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:45:34 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:45:59 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:47:20 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:49:54 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:50:23 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:51:00 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:52:16 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:52:42 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:53:19 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:54:27 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:55:14 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:55:54 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:57:41 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 00:58:07 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:58:50 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 00:59:22 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 00:59:52 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 01:03:41 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 01:04:08 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 01:05:19 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 01:05:52 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 01:09:32 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 01:09:57 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 01:10:33 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 01:12:52 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 01:13:25 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 01:14:04 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 01:22:19 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 01:22:46 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 01:23:21 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 01:27:10 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 01:27:36 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 01:28:16 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 01:36:32 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 01:37:09 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 01:37:47 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 01:41:48 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 01:42:17 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 01:43:27 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 01:44:44 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 01:45:16 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 01:46:05 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 01:48:06 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 01:48:41 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 01:49:25 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Collision.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_ball.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Move_rac.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/displaytest.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/draw.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/scoreby7seg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v" into library work [C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.srcs/sources_1/new/test.v:1]
+[Wed Dec 06 01:53:24 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Dec 06 01:54:10 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 06 01:54:49 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Dr804t/Documents/CPE222/pong_4/Pong.runs/impl_1/Top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 06 01:56:45 2023...

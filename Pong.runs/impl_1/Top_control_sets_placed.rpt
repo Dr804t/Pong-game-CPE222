@@ -1,0 +1,71 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Sun Oct 06 10:36:21 2024
+| Host         : LAPTOP-4ADVH0RC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_control_sets_placed.rpt
+| Design       : Top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    18 |
+| Minimum Number of register sites lost to control set restrictions |    80 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              60 |           34 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              14 |            5 |
+| Yes          | No                    | No                     |              25 |           13 |
+| Yes          | No                    | Yes                    |               8 |            3 |
+| Yes          | Yes                   | No                     |              53 |           19 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+---------------------------------+---------------------------------+------------------+----------------+
+|         Clock Signal         |          Enable Signal          |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
++------------------------------+---------------------------------+---------------------------------+------------------+----------------+
+|  scoreby7seg/win_reg_i_1_n_0 |                                 | reset_IBUF                      |                1 |              1 |
+|  clk_IBUF_BUFG               |                                 |                                 |                1 |              3 |
+| ~video_on_BUFG               |                                 |                                 |                2 |              4 |
+|  div_clk_BUFG                |                                 | draw/red[3]_i_1_n_0             |                1 |              4 |
+|  Collision/score_up_p2       | scoreby7seg/score_p2[3]_i_1_n_0 | reset_IBUF                      |                2 |              4 |
+|  Collision/score_up_p1       | scoreby7seg/score_p2[3]_i_1_n_0 | reset_IBUF                      |                1 |              4 |
+| ~div_clk_BUFG                | displaytest/E[0]                |                                 |                4 |              6 |
+|  video_on_BUFG               | Move_ball/loc_ycount            | Move_ball/loc_xcount[3]_i_1_n_0 |                2 |              7 |
+|  video_on_BUFG               | Collision/slow_reg[7][0]        | Collision/on0                   |                3 |              8 |
+|  video_on_BUFG               |                                 | Move_rac/clear                  |                3 |              9 |
+|  video_on_BUFG               | Move_ball/loc_ycount            |                                 |                5 |              9 |
+|  video_on_BUFG               | Move_ball/count[8]_i_1__0_n_0   | Collision/E[0]                  |                3 |              9 |
+|  video_on_BUFG               | Collision/E[0]                  | Move_ball/countsum              |                3 |              9 |
+|  video_on_BUFG               | Move_ball/ball_ypos[9]_i_1_n_0  | Collision/on0                   |                4 |             10 |
+|  video_on_BUFG               | Move_ball/ball_xpos[9]_i_1_n_0  | Collision/on0                   |                4 |             10 |
+|  div_clk_BUFG                | displaytest/vcount[9]_i_1_n_0   |                                 |                4 |             10 |
+|  div_clk_BUFG                |                                 |                                 |                8 |             15 |
+|  video_on_BUFG               |                                 |                                 |               23 |             38 |
++------------------------------+---------------------------------+---------------------------------+------------------+----------------+
+
+
